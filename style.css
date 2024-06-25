@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw ;
+    height:100vh ;
+}
+#general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  border-radius: 10px;
+    background-color: rgba(153, 205, 50, 0.577);
+}
+#general:hover {
+    box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.747);
+transform: scale(1.2);
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.747); */
+
+}
+#points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.847);
+}
+#buttons{
+
+    display: flex;
+    gap:7px
+}
+.buttonsTouch{
+    border-radius: 5px;
+    padding: 10px;
+   color: white;
+}
+#pt1{
+    background-color: blue;
+}
+#pt2{
+    background-color: red;
+}
+
+#resetGame{
+    background-color: orange;
+}
+select{
+    border-radius: 10px;
+}
